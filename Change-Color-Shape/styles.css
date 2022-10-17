@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  width: 20rem;
+  height: 20rem;
+  background-color: rgb(26, 166, 105);
+  border-radius: 50%;
+  margin: 5em auto;
+  position: relative;
+}
+
+.shape {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(232, 232, 239);
+  /* margin: 5rem auto; */
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.button {
+  text-align: center;
+}
+
+.style-button {
+  font-size: 1rem;
+  padding: 1em;
+  /* background-color: rgb(205, 205, 205); */
+  display: inline-block;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 1em;
+  box-shadow: 2px 2px 5px 2px grey;
+}

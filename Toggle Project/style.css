@@ -5,14 +5,17 @@
 }
 
 .container {
+  width: 300px;
+  margin: 5rem auto;
 }
 
-input {
+button {
   display: inline-block;
-  margin: 2rem 20rem;
+  /* margin: 10rem 30rem; */
+  margin-bottom: 20px;
 }
 
 h3 {
-  text-align: center;
+  /* text-align: center; */
   color: black;
 }
